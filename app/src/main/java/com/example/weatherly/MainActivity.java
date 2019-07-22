@@ -131,6 +131,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     tvDate.setText(formattedDate);
 
                 } else {
+                    Log.d("MainActivity TB :", "Invalid City Name");
                     Toast.makeText(MainActivity.this, "Invalid City Name !! ", Toast.LENGTH_SHORT).show();
                     resetData();
                 }
